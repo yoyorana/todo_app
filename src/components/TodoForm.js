@@ -153,7 +153,7 @@ function addatlast(item){
      }
     return (
  <>
-        <div className="reset"><button  onClick={(e)=>clearincomplete(e)} className={anyCompleted?"clear-completed":"hidden"}  >Reset</button></div>
+        <div className="reset"><button  onClick={(e)=>clearincomplete(e)} className={"clear-completed"}  >Reset</button></div>
         <form className="todoapp">
         <input 
             type="text"
